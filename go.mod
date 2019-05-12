@@ -2,7 +2,10 @@ module github.com/hipages/php-fpm_exporter
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/gosuri/uitable v0.0.0-20160404203958-36ee7e946282
+	github.com/fatih/color v1.7.0 // indirect
+	github.com/gosuri/uitable v0.0.2
+	github.com/mattn/go-colorable v0.1.1 // indirect
+	github.com/mattn/go-isatty v0.0.7 // indirect
 	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/prometheus/client_golang v0.9.2
